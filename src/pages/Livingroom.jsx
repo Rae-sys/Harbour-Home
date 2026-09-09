@@ -1,7 +1,7 @@
 import "../stylesheet/Livingroom.css"
 import Furniturebar from "./Furniturebar"
 import Sofa from "../assets/sofa.jpg"
-import Product from "./product"
+import Product from "./Product"
 import green from "../assets/green armchair.PNG"
 import red from "../assets/red accent chair.PNG"
 import gray from "../assets/gray lounge chair.PNG"

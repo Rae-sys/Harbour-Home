@@ -1,6 +1,6 @@
 import "../stylesheet/Kitchen.css"
 import Furniturebar from "./Furniturebar"
-import Product from "./product"
+import Product from "./Product"
 
 
 

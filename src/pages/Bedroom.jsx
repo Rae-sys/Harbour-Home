@@ -1,7 +1,7 @@
 import "../stylesheet/Bedroom.css"
 import Furniturebar from "./Furniturebar"
 import bedroomset from "../assets/bedroomset.jpg"
-import Product from "./product"
+import Product from "./Product"
 import art from "../assets/art.jpg"
 
 
