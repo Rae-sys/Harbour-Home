@@ -2,14 +2,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import Home from './pages/Home'
-import Shop from './pages/shop'
+import Shop from './pages/Shop'
 import About from './pages/About'
 import Livingroom from './pages/Livingroom'
 import Bedroom from './pages/Bedroom'
 import Kitchen from './pages/Kitchen'
-import Contact from './pages/contact'
+import Contact from './pages/Contact'
 import Office from './pages/Office'
 
 function App() {
