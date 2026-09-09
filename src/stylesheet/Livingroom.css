@@ -1,0 +1,142 @@
+.sitting-room-hero{
+    background-image: linear-gradient(rgba(0, 100, 0, 0.374)), url(../assets/li.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+   color: aliceblue;
+   text-align: center; 
+   padding-top: 8%;
+}
+.sitting-room-hero h1{
+    font-size: 6vw;
+    padding: 0 18%;
+}
+.sitting-room-hero p{
+    font-size: 1.5rem;
+    padding: 2% 10%;
+}
+
+
+.exclusive{
+    background-color: #FAF7F0;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.exclusive img{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.properties{
+    width: 50%;
+    margin-top: 2%;
+    padding: 0 2%;
+}
+.properties h3{
+    padding: 2%;
+}
+.properties button{
+    margin: 3% 0;
+    padding: 10px 20px;
+    background-color:#2F4A3A;
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(33, 72, 33, 0.418);
+    margin-top: 30px;
+}
+.properties a{
+    text-decoration: none;
+     color: #FAF7F0;
+}
+.properties button:hover{
+    background-color:#B86145 ;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.picture{
+ display: flex;
+ background-color: rgba(225, 219, 211, 0.605);
+}
+.picture h2{
+    color: white;
+margin-bottom: 2%;
+font-size: 2.3rem;
+color: #1f4a30;
+}
+.picture p{
+    color: #2c3b34;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    padding-right:  20%;
+}
+.picture button{
+    padding: 15px 25px;
+    background-color: rgba(22, 49, 22, 0.977);
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(33, 72, 33, 0.418);
+    margin-top: 30px;
+     font-size: 1.5rem;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+.picture button:hover{
+  background-color:#B86145 ;
+    transition: 0.5s;
+}
+
+.picture img{
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.product-info a:hover {
+    background-color: #B86145 ;
+}
+@media (max-width: 700px) {
+  .product{
+    grid-template-columns: 1fr;
+
+  }
+
+  .products img {
+    height: 230px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

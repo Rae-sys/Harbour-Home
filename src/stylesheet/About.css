@@ -1,0 +1,80 @@
+.hide{
+    display: none;
+}
+.welcome{
+    display: flex;
+    padding: 2% 0;
+    background-color: #f5f1ea;
+    color: rgb(4, 48, 4);
+}
+.welcome img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.welcome-text{
+ padding:2% 5%;
+  text-align: center;
+}
+.welcome p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+   
+}
+.story{
+    display: flex;
+    padding: 5% 0;
+}
+.story img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.story-text{
+ padding:2% 5%;
+  text-align:left;
+}
+.story-text p{     
+    font-size: 1.2rem;
+     line-height: 1.5;
+
+
+}
+.our-mission{
+    background-color: #ede7dd;
+}
+.our-mission img{
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 10%;
+}
+.our-mission-text{
+    line-height: 1.8;
+}
+.our-mission p,
+.our-mission li {
+    font-size: 1.3rem;
+}
+
+.why-choose-us{
+   
+    display: flex;
+}
+.why-choose-us p{
+    font-size: 1.2rem;
+   
+}
+.why-choose-us-text{
+     padding-left: 5%;
+}
+.our p{
+    font-size: 1.2rem;
+}
+.deliver p{
+   font-size: 1.2rem;
+   line-height: 1.5;
+}

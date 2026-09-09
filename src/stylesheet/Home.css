@@ -1,0 +1,193 @@
+.hero{
+    background-image: linear-gradient(#2f4a3a2e), url(https://s3-figma-hubfile-images-production-cdn-cgi.figma.com/cdn-cgi/image/format=auto,quality=85,width=1600/hub/file/carousel/img/d8c472845fca4684b14a74e08194723037990a43);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero{
+   color: aliceblue;
+   text-align: center; 
+   padding-top: 8%;
+}
+.hero h1{
+    font-size: 6vw;
+    padding: 0 18%;
+}
+.hero p{
+    font-size: 1.5rem;
+    padding: 2% 10%;
+}
+.search{
+    position: relative;
+    width:65%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 25px;
+    margin: 2% 20%  2% 15%;
+    background-color: #ffffff39;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(202, 199, 199, 0.105);
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color:black;
+}
+.search i{
+    color: rgb(33, 72, 33);
+    font-size: 1.5rem;
+}
+.search h4{
+    color: rgb(33, 72, 33);
+    font-size: 1.1rem;
+    padding-right: 10px;
+}
+
+
+/****cards section**/
+.wrapper{
+    display: flex;
+      flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding-left: 6%;
+    margin-bottom: 5%;
+    
+}
+.cards h1{
+    text-align: center;
+    padding: 3%;
+}
+.wrapper h2{
+    padding-top: 10%;
+}
+
+.wrapper p{
+    padding: 3% 10%;
+    line-height: 1.3rem;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: rgba(33, 72, 33, 0.404);
+    color: white;
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(33, 72, 33);
+    border-radius: 12%;
+}
+.wrapper button:hover{
+    background-color: rgba(60, 147, 60, 0.753);
+    transition: 0.5s;
+}
+.wrapper button a{
+    text-decoration: none;
+    color: white;
+}
+.sitting-room, 
+.bed-room,
+.office-furniture, 
+.kitchen-furniture {
+    width: 30%;
+    height: 270px;
+     padding: 44px 100px;
+     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.539);
+   text-align: center;
+   color: white;
+   border-radius: 10px;
+   box-shadow:  0px 0px 10px rgba(33, 72, 33, 0.699);
+}
+
+.sitting-room{
+    background-image: linear-gradient(#2f4a3a75), url("../assets/furniture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+
+.bed-room{
+    background-image: linear-gradient(#2f4a3a75), url(https://i.pinimg.com/736x/2f/61/2c/2f612cfa06d5a7751edcaa1b9f7b71e3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+
+
+
+.office-furniture{
+    background-image: linear-gradient(#2f4a3a75), url(https://i.pinimg.com/1200x/71/ee/27/71ee276aa131ea204a4fe28b58d0458b.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+
+.kitchen-furniture{
+    background-image: linear-gradient(#2f4a3a75), url(https://i.pinimg.com/1200x/2c/06/70/2c0670439e6cc563135713f0db345989.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+
+
+.why-choose-us{
+    background-color: #DDE5D6;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 5%;
+}
+.why-choose-us img{
+    width: 55%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.reason{
+    width: 50%;
+    margin-top: 2%;
+    padding: 0 5%;
+}
+.reason h3{
+    padding: 2%;
+}
+.pic{
+    background-image: linear-gradient(#0b3d205b),url(https://i.pinimg.com/1200x/d5/f1/28/d5f128f5cdc3c7752a7afc40c03e0fc2.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+       padding: 25% 20%;
+}
+.pic p{
+    color: white;
+    font-size: 1.5rem;
+}
+.pic button{
+    padding: 10px 20px;
+    background-color: rgba(33, 72, 33, 0.404);
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(33, 72, 33, 0.418);
+    margin-top: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.pic button:hover{
+    background-color: rgba(60, 147, 60, 0.753);
+    transition: 0.5s;
+}

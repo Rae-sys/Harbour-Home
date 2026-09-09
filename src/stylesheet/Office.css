@@ -1,0 +1,119 @@
+
+.office-hero{
+    background-image: linear-gradient(rgba(5, 61, 5, 0.324)), url(https://www.eunicon.com.ng/cdn/shop/files/boss-2m-executive-office-desk_720x.jpg?v=1704971670);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   color: aliceblue;
+   text-align: center; 
+   padding-top: 8%;
+}
+.office-hero h1{
+    font-size: 6vw;
+    padding: 0 18%;
+}
+.office-hero p{
+    font-size: 1.5rem;
+    padding: 2% 10%;
+}
+
+
+.exclusive{
+    background-color: #FAF7F0;
+    color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.exclusive img{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.properties{
+    width: 50%;
+    margin-top: 2%;
+    padding: 0 2%;
+}
+.properties h3{
+    padding: 2%;
+}
+.properties button{
+    margin: 3% 0;
+    padding: 10px 20px;
+    background-color:#2F4A3A;
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(33, 72, 33, 0.418);
+    margin-top: 30px;
+}
+.properties a{
+    text-decoration: none;
+     color: #FAF7F0;
+}
+.properties button:hover{
+    background-color:#B86145 ;
+    transition: 0.5s;
+}
+.properties P{
+    font-size: 1.4rem;
+}
+
+
+
+.pics{
+    background-image: linear-gradient(#0b3d2088),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSia4cXIgajyY1XKkM_FtptI3idP4AqS5rPJa3AL_5h7wg1yHlVtriq8HEy&s=10);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+       padding: 25% 20%;
+
+}
+.pics h2{
+    color: white;
+margin-bottom: 2%;
+font-size: 2.3rem;
+color: #1f4a30;
+}
+.pics p{
+    color: #ebefed;
+    
+    font-size: 1.8rem;
+}
+.pics button{
+    padding: 15px 25px;
+    background-color: rgba(33, 72, 33, 0.55);
+    border: 2px solid rgb(238, 240, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(33, 72, 33, 0.418);
+    margin-top: 30px;
+     font-size: 1.5rem;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+.pics button:hover{
+    background-color: rgba(8, 33, 8, 0.753);
+    transition: 0.5s;
+}
+
+.product-info a:hover {
+    background-color: #B86145 ;
+}
+@media (max-width: 700px) {
+  .product{
+    grid-template-columns: 1fr;
+  }
+
+  .products img {
+    height: 230px;
+  }
+}
