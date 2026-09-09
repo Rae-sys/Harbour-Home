@@ -1,13 +1,7 @@
 import "../stylesheet/Bedroom.css"
 import Furniturebar from "./Furniturebar"
 import bedroomset from "../assets/bedroomset.jpg"
-import chair from "../assets/chair.jpg"
 import Product from "./product"
-import green from "../assets/green armchair.PNG"
-import red from "../assets/red accent chair.PNG"
-import gray from "../assets/gray lounge chair.PNG"
-import lamp from"../assets/lamo.jpg"
-import mirror from "../assets/mirror.jpg"
 import art from "../assets/art.jpg"
 
 
