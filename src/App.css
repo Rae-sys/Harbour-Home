@@ -398,9 +398,13 @@ footer{
         font-size: 16px;
         
      }
+     .hero{
+        height: 30vh;
+     }
     .hero h1{
         padding: 0 30%;
          font-size: 16px;
+         margin-top: 100px;
     }
     .hero p{
         padding: 2% 5%;
@@ -478,6 +482,13 @@ footer{
         display: flex;
         gap: 10px;
     }
+}
+@media screen and (max-width: 420px){
+  .contact-info  p{
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
 }
 @media screen and (max-width: 400px){
     p{
