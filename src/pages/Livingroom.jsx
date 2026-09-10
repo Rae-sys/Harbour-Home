@@ -43,7 +43,7 @@ export default function Livingroom(){
      <Product image={"https://i.pinimg.com/1200x/1c/68/40/1c6840295cfdbc04ad07b59c2772c1d4.jpg"} title= {"Haven L-Shaped Sofa"}  descrip={"Generous seating with a modern shape, perfect for family rooms and entertaining."}  price= {"$150.00"} /> 
 
 
-     <Product image={"https://i.pinimg.com/736x/77/07/1a/77071a6f528e685fd6675b0d0e83127e.jpg"} title= {"Aria 2-Seater Sofa"}  descrip={" A compact, elegant sofa made for smaller spaces without compromising comfort."}  price= {"$100.00"} /> 
+     <Product image={"https://i.pinimg.com/1200x/16/49/cd/1649cdb6132f579ca4794048bae667b3.jpg"} title= {"Aria 2-Seater Sofa"}  descrip={" A compact, elegant sofa made for smaller spaces without compromising comfort."}  price= {"$100.00"} /> 
 
       <Product image={"https://i.pinimg.com/736x/02/d7/39/02d7390d68ecc24e48eb5c968e0868e0.jpg"} title= {"loud Recliner Chair"}  descrip={" Sink into soft, supportive comfort with this stylish reclining chair."}  price= {"$77.00"} /> 
   </div>

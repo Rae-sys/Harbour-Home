@@ -9,7 +9,7 @@ export default function Contact() {
 
 
     <section className="welcme">
-       <h1>We Will Love To Hear From You</h1> <br /> 
+       <h1>We Will Love To Hear From You</h1> 
      <p>Have a question about our furniture, delivery, custom orders, or a product you have seen in our collection? Our team is here to help. <br />
      Whether you are furnishing a single room, a complete home, or an office space, feel free to get in touch with us.
 
@@ -22,14 +22,12 @@ export default function Contact() {
        <div className="contact-info">
          <h2>GET IN TOUCH</h2>
        <h3> Phone</h3>
-       <p>Call us for enquires,product information and support </p>
-       <p>+234 903 719 9222</p>
+        <a href="tel:+2349037199222">+234 903 719 9222</a>
        <h3>Email</h3>
-       <p>Send us an email and we will get back to you as soon as possible.</p>
        <a href="mailto:oluwadipefunke@gmail.com">info@harbourhome.com</a>
        <h3> WhatsApp
 </h3>
-       <p>Whether you are furnishing a single room, a complete home, <br />
+       <p>Whether you are furnishing a single room, a complete <br /> home, 
          or an office space, feel free to get in touch with us.
 </p>
          <div className="buttn">
@@ -46,10 +44,9 @@ export default function Contact() {
          <input type="text" placeholder="Your Phone Number" required/>
           <input type="text" placeholder="Your E-mail" required/>
           <textarea placeholder="Message"></textarea>
-
-          <button type="submit">
-            SEND MESSAGE 
-          </button>
+        <button>     <a href="https://docs.google.com/forms/d/e/1FAIpQLSemPBnmXMXfXiD811Thzncjv462TsFMl4IpBCHI2EGhjsd1GQ/viewform?usp=publish-editor" target="_blank">Submit Form</a></button>
+    
+        
       </form>
       </div>
     </section>
