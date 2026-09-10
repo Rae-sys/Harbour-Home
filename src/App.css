@@ -425,7 +425,7 @@ footer{
     }
     .hero{
         padding-top: 25%;
-        height: 75vh;
+      
     }
     .product{
         display: flex;
@@ -489,6 +489,33 @@ footer{
         line-height: 1.5rem;
     }
 
+
+      .custom p{
+        font-size: 14px;
+        line-height: 1.5rem;
+}
+.custom ul{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.custom button {
+    font-size: 14px;
+    margin: 13% 0;
+
+}
+.visit p,
+.visit ul{
+        font-size: 14px;
+        line-height: 1.5rem;
+}
+.let h2{
+    font-size: 1.2rem;
+}
+.let p{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
 }
 @media screen and (max-width: 400px){
     p{
