@@ -59,11 +59,10 @@ Furniture made for comfort, style, and everyday living. <br/>
     Chat with Harbour Home on WhatsApp for product details,<br/>
     custom orders, and delivery information in Port Harcourt.
   </p>
-        
-    <div class="btn">
-           
-     <button><a href="https://wa.me/2349037199222" target="_blank">Chat On WhatsApp</a></button>
-    </div>
+
+  
+            
+                        
     </div>
         </>
     )
